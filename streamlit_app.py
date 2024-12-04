@@ -30,7 +30,6 @@ if uploaded_file is not None:
 
     tsne_dimension_1 = df.loc[0:num_rows - 1, 'tsne_dimension_1'].values
     tsne_dimension_2 = df.loc[0:num_rows - 1, 'tsne_dimension_2'].values
-    tsne_outputs = df.loc[0:num_rows - 1, 0:1].values
     clusters = df.loc[0:num_rows - 1, 'Cluster'].values
     headlines = df.loc[0:num_rows - 1, 'Headlines'].values
 
